@@ -1,0 +1,110 @@
+.header {
+  font-size: 38px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-bottom: 10px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+  font-family: Verdana, Arial, sans-serif;
+}
+
+.timer {
+  border: 1px solid #ccc;
+  width: 470px; 
+  margin: auto;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon {
+  font-size: 30px;
+  padding: 0 9px;
+  margin: 10px 0 20px;
+  font-weight: bold;
+  cursor: pointer;
+  width: 52px;
+  height: 52px;
+  border: 0;
+  border-radius: 4px;
+}
+
+.icon-play {
+  composes: icon;
+  font-size: 23px;
+  padding: 11px 12px 12px 13px;
+}
+
+.value {
+  font-size: 78px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-top: 10px;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.text {
+  font-size: 28px;
+  padding-left: 5px;
+  padding-right: 16px;
+  margin-top: 2px;
+  text-align: left;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.button {
+  appearance: none;
+  background: none;
+  font-size: 22px;
+  padding-left: 12px;
+  padding-right: 12px;
+  outline: none;
+  border: 2px solid transparent;
+  padding-bottom: 0px;
+  cursor: pointer;
+  background-color: rgba(223, 86, 86, 0.1);
+  border-radius: 4px;
+  transition: all 0.15s;
+  margin: 0 5px;
+}
+
+.buttonEdit { 
+  composes: button;
+  background-color: rgba(86, 111, 223, 0.1);
+}
+
+.iconAdd {
+  composes: icon;
+  margin-top: 20px;
+  background-color: rgb(218, 255, 224);
+}
+
+.textbox {
+  font-size: 20px;
+  padding: 2px;
+  width: 264px;
+  text-align: center;
+  margin-bottom: 4px;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  text-align: left;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.button:hover,
+.button:focus {
+  
+}
+
+.button:active {
+  background-color: rgba(112, 76, 182, 0.2);
+}
